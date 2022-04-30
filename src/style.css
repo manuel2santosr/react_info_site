@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #282D35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo-text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 700;
+}
+
+.nav--logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 55px 25px;
+    color: white;
+    background-image: url('./images/logo192.png');
+    background-repeat: no-repeat;
+    background-position: 100% 45%;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.main--list {
+    margin-top: 45px;
+}
+
+.main--list > li {
+    line-height: 20px;
+    padding-block: 10px;
+}
+
+.main--list > li::marker {
+    font-size: 1.5rem;
+    color:#61DAFB
+}
